@@ -1,5 +1,7 @@
-import { DeepPartial } from "typeorm";
 import { Body, Post, Param, Get, Patch, Delete } from "@nestjs/common";
+
+import { DeepPartial } from "typeorm";
+
 import { CrudService } from "./crud.service";
 
 export class CrudController<T, TService extends CrudService<any>> {

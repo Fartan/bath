@@ -1,6 +1,8 @@
 import { Entity, Column } from "typeorm";
-import { EntityBase } from "../lib/entitybase";
+
 import { IsNotEmpty, IsString, IsNumber } from "class-validator";
+
+import { EntityBase } from "../lib/entitybase";
 
 @Entity()
 export class Service extends EntityBase {

@@ -1,4 +1,5 @@
 import { Controller } from "@nestjs/common";
+
 import { CrudController } from "../lib/crud.controller";
 import { Service } from "./service.entity";
 import { ServiceService } from "./service.service";
