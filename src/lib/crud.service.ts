@@ -28,7 +28,7 @@ export abstract class CrudService<T, TID=string> {
         return this.repository.save({
             id: id,
             ...data
-        })
+        });
     }
 
     async deleteOne(id: TID) : Promise<void> {

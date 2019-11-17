@@ -42,4 +42,4 @@ export class CrudController<T, TService extends CrudService<any>> {
         return this.service.deleteOne(id);
     }
 
-} 
+}

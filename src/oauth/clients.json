@@ -1,0 +1,16 @@
+{
+  "bath_client_web": {
+    "grants": ["password", "refresh_token"],
+    "id": "bath_client_web",
+    "secret": "B10a01",
+    "accessTokenLifetime": 30,
+    "refreshTokenLifetime": 172800
+  },
+  "bath_client_app": {
+    "grants": ["password", "refresh_token"],
+    "id": "bath_client_app",
+    "secret": "A89B34",
+    "accessTokenLifetime": 30,
+    "refreshTokenLifetime": 172800
+  }
+}

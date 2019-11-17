@@ -17,7 +17,7 @@ export class Purchase extends EntityBase {
                 return this.service.reduce((a, b) => a + b.price, 0);
             },
             enumerable: true
-        })
+        });
     }
 
     @ManyToMany(() => Service, { eager: true })

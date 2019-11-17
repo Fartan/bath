@@ -23,7 +23,7 @@ export class PetService extends CrudService<Pet> {
             owner: {
                 id: id
             }
-        })
+        });
     }
 
     async getPurchases(id: string): Promise<Purchase[]> {

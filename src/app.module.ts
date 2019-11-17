@@ -6,14 +6,16 @@ import { ContactModule } from './contact/contact.module';
 import { PetModule } from './pet/pet.module';
 import { ServiceModule } from './service/service.module';
 import { PurchaseModule } from './purchase/purchase.module';
+import { OAuthModule } from './oauth/oauth.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(), 
-    UserModule, 
-    PetModule, 
-    ContactModule, 
-    ServiceModule, 
-    PurchaseModule
+  imports: [TypeOrmModule.forRoot(),
+    UserModule,
+    PetModule,
+    ContactModule,
+    ServiceModule,
+    PurchaseModule,
+    OAuthModule
   ]
 })
-export class AppModule {}
+export class AppModule { }

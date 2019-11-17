@@ -17,7 +17,8 @@ export class User extends EntityBase {
     @Column()
     password: string;
 
-    @OneToMany(() => Contact, (contact) => contact.owner, { eager: true, cascade: true })
+    @OneToMany(() => Contact, (contact) => contact.owner,
+        { eager: true, cascade: true })
     contacts: Contact[];
 
     @OneToMany(() => Pet, (pet) => pet.owner)

@@ -18,7 +18,7 @@ export class PurchaseService extends CrudService<Purchase> {
             owner: {
                 id: id
             }
-        })
+        });
     }
 
     getByPet(id: string): Promise<Purchase[]> {
@@ -26,6 +26,6 @@ export class PurchaseService extends CrudService<Purchase> {
             pet: {
                 id: id
             }
-        })
+        });
     }
 }
