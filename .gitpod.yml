@@ -2,6 +2,6 @@ ports:
   - port: 3000
     onOpen: open-preview
 tasks:
-  - before: cd bath
+  - before: cd /workspace/bath
     init: yarn install
     command: yarn start
