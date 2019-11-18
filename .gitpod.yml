@@ -2,6 +2,6 @@ ports:
   - port: 3000
     onOpen: open-preview
 tasks:
-  - before: cd src
-    init: yarn i
+  - before: cd bath
+    init: yarn install
     command: yarn start
